@@ -13,6 +13,7 @@
 		A74067C825FA85810061BF3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74067C625FA85810061BF3B /* Main.storyboard */; };
 		A74067CA25FA85820061BF3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74067C925FA85820061BF3B /* Assets.xcassets */; };
 		A74067CD25FA85820061BF3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74067CB25FA85820061BF3B /* LaunchScreen.storyboard */; };
+		A74067D525FAA37C0061BF3B /* jf-openhuninn-1.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A74067D425FAA37C0061BF3B /* jf-openhuninn-1.1.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A74067C925FA85820061BF3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A74067CC25FA85820061BF3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A74067CE25FA85820061BF3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A74067D425FAA37C0061BF3B /* jf-openhuninn-1.1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jf-openhuninn-1.1.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		A74067BF25FA85810061BF3B /* book app */ = {
 			isa = PBXGroup;
 			children = (
+				A74067D425FAA37C0061BF3B /* jf-openhuninn-1.1.ttf */,
 				A74067C025FA85810061BF3B /* AppDelegate.swift */,
 				A74067C225FA85810061BF3B /* SceneDelegate.swift */,
 				A74067C425FA85810061BF3B /* ViewController.swift */,
@@ -125,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A74067CD25FA85820061BF3B /* LaunchScreen.storyboard in Resources */,
+				A74067D525FAA37C0061BF3B /* jf-openhuninn-1.1.ttf in Resources */,
 				A74067CA25FA85820061BF3B /* Assets.xcassets in Resources */,
 				A74067C825FA85810061BF3B /* Main.storyboard in Resources */,
 			);
@@ -289,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WA34G25776;
 				INFOPLIST_FILE = "book app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WA34G25776;
 				INFOPLIST_FILE = "book app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
