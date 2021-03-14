@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18121" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eSB-jf-yvx">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eSB-jf-yvx">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18092"/>
@@ -118,6 +118,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="eSB-jf-yvx" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ww7-3J-3E4">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -319,7 +320,7 @@
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="https://zh.wikipedia.org/zh-tw/任嘉倫" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jwf-9S-oz2">
                                                     <rect key="frame" x="0.0" y="60" width="363" height="147"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <color key="backgroundColor" red="0.78823529411764703" green="0.68235294117647061" blue="0.56862745098039214" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="backgroundColor" red="0.78823530669999997" green="0.68235301969999995" blue="0.56862747670000002" alpha="0.49935326986754969" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="33"/>
@@ -337,7 +338,7 @@
                                             <color key="tintColor" red="0.66666666669999997" green="0.47450980390000003" blue="0.25882352939999997" alpha="0.5" colorSpace="custom" customColorSpace="displayP3"/>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.66666666669999997" green="0.47450980390000003" blue="0.25882352939999997" alpha="0.56332376699999998" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="tintColor" red="0.63137254899999995" green="0.53576743199999999" blue="0.75686274509999996" alpha="0.56332376699999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.66666666669999997" green="0.47450980390000003" blue="0.25882352939999997" alpha="0.56332376699999998" colorSpace="custom" customColorSpace="sRGB"/>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -465,7 +466,7 @@
                                                 <rect key="frame" x="5" y="66" width="404" height="813"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                <mutableString key="text">張小凡與林驚羽兩少年，經歷草廟村全村滅村的慘案後，被青雲門收歸門下。
+                                                <string key="text">張小凡與林驚羽兩少年，經歷草廟村全村滅村的慘案後，被青雲門收歸門下。
 張小凡、碧瑤（鬼王之女）、林驚羽、陸雪琪、曾書書等一伙熱血的少年，因正魔兩派糾葛千年的過節，衍生出種種愛恨情仇。張小凡與林驚羽從小就是好朋友，在一次平常不過的打鬧之中，遇到有人來搶奪嗜血珠而開始整個故事。
 張小凡與林驚羽兩少年從小出生於清雲門下的草廟村，一日兩人在村內玩耍時誤打誤撞進了土地廟，林驚羽被有心人下毒，一位天音閣的高手為他解毒，陰差陽錯之下傳授天音功法給張小凡也給了他噬血珠。隔日，張小凡與林驚羽發現村人全被殺害。
 張小凡入青雲門之後，因其已身具天音閣功法，因此青雲武功一直無法練就起來，所以青雲門上下的人都瞧不起他，但是他的師姐靈兒(唐藝昕 飾)卻對他十分的好。
@@ -480,7 +481,7 @@
 夔牛突然現身使得張小凡情急之下運用自己天音閣萬滅心鐘功法鎮壓夔牛，青雲門上下十分驚訝，之後天音閣趁著張小凡鎮壓夔牛耗損修為正修養之時將他帶回天音閣，普空師父向張小凡解釋當年為傳授天音功法給他的就是普空的師父普智大師，之後普智被心中的心魔反噬將草廟村滅村。
 鬼王得三大靈獸後，因想搶奪存於青雲的誅仙劍，所以集結長生堂、萬毒門、合歡派三大魔教齊攻打青雲，不料第二日魔軍中的各教派出現內訌，各懷鬼胎，差點被張小凡各個擊破，但最後魔教仍舊大舉入侵青雲門，在青雲門危在旦夕一時，掌門道玄雖身受重傷，但仍然拿出誅仙劍，斬殺妖魔，此一行為也讓道玄入魔，並認為張小凡拿著邪物嗜血珠，會致使世界落入魔教之手，因此欲殺張小凡。
 在張小凡就要被道玄殺害之際，碧瑤不顧性命，使了用癡情咒阻擋了誅仙劍的力量，但也香消玉損，倒在張小凡的懷裡。
-張小凡的心中悲痛欲絕，最後青雲門慘勝第一季完。</mutableString>
+張小凡的心中悲痛欲絕，最後青雲門慘勝第一季完。</string>
                                                 <color key="textColor" systemColor="labelColor"/>
                                                 <fontDescription key="fontDescription" name="jf-openhuninn-1.1" family="jf-openhuninn-1.1" pointSize="24"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -535,13 +536,13 @@
                                                 <rect key="frame" x="5" y="66" width="404" height="813"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                <mutableString key="text">《美人為餡》劇情講述警花白錦曦與昔日男友韓沉相隔數年再度相遇，深陷驚天陰謀的兩人在無數危影迷蹤中破獲各種懸案，並最終走到一起的高智商犯罪懸疑愛情故事。
+                                                <string key="text">《美人為餡》劇情講述警花白錦曦與昔日男友韓沉相隔數年再度相遇，深陷驚天陰謀的兩人在無數危影迷蹤中破獲各種懸案，並最終走到一起的高智商犯罪懸疑愛情故事。
  
 她曾經是天之驕女，驕橫、臭美、美麗、張揚，卻因為一場連環大案，被殺手集團帶走，從此失去姓名，失去身份，也失去記憶。
 她被藏於城市最普通的角落中，過著大大咧咧的生活。而他為了尋她，踏遍千山萬水，從曾經張揚跋扈的京城公子哥，變成冷酷沉靜的刑警。
 命運讓他們再次相逢。他說：「我在尋找我的未婚妻，不知姓名，不知長相，不知死活。」而她依稀只記得夢中那個挺拔冷峻的身影，卻辨不清眼前的人，是否就是情根深種的他。
 一樁樁大案，在他們面前發生。他的傳統刑偵，她的犯罪心理，互不相讓，卻又互為助力，就像是上輩子已經注定，天衣無縫。而他們一點點掙扎，一次次靠近……
-半生殘失，如鯁在喉。當他們的記憶甦醒，當他們終於相認、相聚，命運的齒輪也再次轉動。前方是幸福，還是深淵？</mutableString>
+半生殘失，如鯁在喉。當他們的記憶甦醒，當他們終於相認、相聚，命運的齒輪也再次轉動。前方是幸福，還是深淵？</string>
                                                 <color key="textColor" systemColor="labelColor"/>
                                                 <fontDescription key="fontDescription" name="jf-openhuninn-1.1" family="jf-openhuninn-1.1" pointSize="24"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -734,7 +735,7 @@
                                                 <rect key="frame" x="5" y="66" width="404" height="813"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                <mutableString key="text">沈珍珠出身名門，被選為廣平王李俶之妃，生下長子唐德宗李適，後被李適追封為睿真皇后。她是一介江南女子，內心善良，心存社稷，與人為善。原發誓非幼時救命恩人不嫁的她，為查沈家滅門血案而嫁入廣平王府。雖然後來確定李俶就是自己的救命恩人，卻被真凶設計，誤認為李俶是滅自己家門的兇手。誤會化解之後安史之亂爆發，卻被困在落難的長安城中，與李俶分隔兩地。離散之中雖有青梅竹馬安慶緒對其追求，仍堅守對李俶的愛。唐軍收復長安後，宣佈流散之人不得入宮，但李俶一心要接珍珠回來。這宮城中仍有上演不完的爾虞我詐，只是珍珠在李俶身邊，與其共同進退。唐肅宗時期，皇室內憂外患。三皇子李倓受張皇后誣陷而亡，李俶身為皇兄悲痛不已，對父皇和朝政心灰意冷，頹喪度日</mutableString>
+                                                <string key="text">沈珍珠出身名門，被選為廣平王李俶之妃，生下長子唐德宗李適，後被李適追封為睿真皇后。她是一介江南女子，內心善良，心存社稷，與人為善。原發誓非幼時救命恩人不嫁的她，為查沈家滅門血案而嫁入廣平王府。雖然後來確定李俶就是自己的救命恩人，卻被真凶設計，誤認為李俶是滅自己家門的兇手。誤會化解之後安史之亂爆發，卻被困在落難的長安城中，與李俶分隔兩地。離散之中雖有青梅竹馬安慶緒對其追求，仍堅守對李俶的愛。唐軍收復長安後，宣佈流散之人不得入宮，但李俶一心要接珍珠回來。這宮城中仍有上演不完的爾虞我詐，只是珍珠在李俶身邊，與其共同進退。唐肅宗時期，皇室內憂外患。三皇子李倓受張皇后誣陷而亡，李俶身為皇兄悲痛不已，對父皇和朝政心灰意冷，頹喪度日</string>
                                                 <color key="textColor" systemColor="labelColor"/>
                                                 <fontDescription key="fontDescription" name="jf-openhuninn-1.1" family="jf-openhuninn-1.1" pointSize="24"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -789,7 +790,7 @@
                                                 <rect key="frame" x="5" y="66" width="404" height="813"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                <mutableString key="text">朝堂之上，張皇后和史思明趁機中傷李俶，致李俶兵權被奪。為使李俶振作重獲肅宗重用，獨孤靖瑤提出嫁入王府協助李俶。為了李俶和大唐王朝的未來，珍珠主動讓李俶迎娶獨孤靖瑤。之後李俶被立為太子，於肅宗病重時代為監國，張皇后圖謀另立太子，但詭計遭忠臣李佖識破，李俶太子之位得保。大勢已去的張皇后拼死掙扎，試圖綁架珍珠以要挾李俶，宦官李輔國知張皇后已是強弩之末，轉助李俶在病危的肅宗面前揭穿張皇后的真面目。李俶成功平叛，大唐動盪許久的江山重歸穩固，幾經波折總算團圓的李俶和珍珠，卻再次面臨生離死別，為守護皇室多年盡心盡力的李俶，雖登上皇位，卻只能獨自一人守著這萬里山河，延續大唐榮耀。</mutableString>
+                                                <string key="text">朝堂之上，張皇后和史思明趁機中傷李俶，致李俶兵權被奪。為使李俶振作重獲肅宗重用，獨孤靖瑤提出嫁入王府協助李俶。為了李俶和大唐王朝的未來，珍珠主動讓李俶迎娶獨孤靖瑤。之後李俶被立為太子，於肅宗病重時代為監國，張皇后圖謀另立太子，但詭計遭忠臣李佖識破，李俶太子之位得保。大勢已去的張皇后拼死掙扎，試圖綁架珍珠以要挾李俶，宦官李輔國知張皇后已是強弩之末，轉助李俶在病危的肅宗面前揭穿張皇后的真面目。李俶成功平叛，大唐動盪許久的江山重歸穩固，幾經波折總算團圓的李俶和珍珠，卻再次面臨生離死別，為守護皇室多年盡心盡力的李俶，雖登上皇位，卻只能獨自一人守著這萬里山河，延續大唐榮耀。</string>
                                                 <color key="textColor" systemColor="labelColor"/>
                                                 <fontDescription key="fontDescription" name="jf-openhuninn-1.1" family="jf-openhuninn-1.1" pointSize="24"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -996,7 +997,7 @@
                                                 <rect key="frame" x="5" y="66" width="404" height="813"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                <mutableString key="text">天賦異稟的六扇門女捕快袁今夏（譚松韻飾）因為一樁案件和性情狠辣的錦衣衛陸繹（任嘉倫飾）結下梁子，今夏本以為此生與他再無交集，奈何冤家路窄。朝廷十萬兩修河款不翼而飛，今夏奉命協助陸繹一起下揚州查案，替朝廷找回丟失的官銀。本是道不同不相為謀，卻因驚天密案聯手。兩人從勢同水火到刮目相看再到情難自已，命運的齒輪從此旋轉在一起。然而事與願違，今夏竟是當年夏然案的遺孤，背負家族血仇的她與陸繹之間橫生了無法跨越的鴻溝。最後，兩個有情人歷經苦難，為救百姓、抗倭寇、除奸佞，放下家族仇怨，聯手對敵，衝破世俗枷鎖，勇敢地走到了一起。</mutableString>
+                                                <string key="text">天賦異稟的六扇門女捕快袁今夏（譚松韻飾）因為一樁案件和性情狠辣的錦衣衛陸繹（任嘉倫飾）結下梁子，今夏本以為此生與他再無交集，奈何冤家路窄。朝廷十萬兩修河款不翼而飛，今夏奉命協助陸繹一起下揚州查案，替朝廷找回丟失的官銀。本是道不同不相為謀，卻因驚天密案聯手。兩人從勢同水火到刮目相看再到情難自已，命運的齒輪從此旋轉在一起。然而事與願違，今夏竟是當年夏然案的遺孤，背負家族血仇的她與陸繹之間橫生了無法跨越的鴻溝。最後，兩個有情人歷經苦難，為救百姓、抗倭寇、除奸佞，放下家族仇怨，聯手對敵，衝破世俗枷鎖，勇敢地走到了一起。</string>
                                                 <color key="textColor" systemColor="labelColor"/>
                                                 <fontDescription key="fontDescription" name="jf-openhuninn-1.1" family="jf-openhuninn-1.1" pointSize="24"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2109,7 +2110,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="344.5" height="60"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2013-2017年" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cbu-uC-5oE">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2019-2021年" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cbu-uC-5oE">
                                                     <rect key="frame" x="46" y="0.0" width="253" height="56"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" name="jf-openhuninn-1.1" family="jf-openhuninn-1.1" pointSize="40"/>
